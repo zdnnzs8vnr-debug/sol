@@ -1,0 +1,25 @@
+{
+  "name": "GUSTAVOEURO — Banconote & PayPal",
+  "short_name": "GUSTAVOEURO",
+  "description": "Banconote Euro Grade AAA+ e trasferimenti PayPal P2P anonimi dal 2022.",
+  "start_url": "/#/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#05060d",
+  "theme_color": "#05060d",
+  "lang": "it",
+  "dir": "ltr",
+  "categories": ["finance", "shopping", "business"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Catalogo", "url": "/#/cash" },
+    { "name": "PayPal", "url": "/#/paypal" },
+    { "name": "Traccia ordine", "url": "/#/track" },
+    { "name": "Trust Center", "url": "/#/trust" }
+  ]
+}
