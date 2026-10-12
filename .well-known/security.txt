@@ -1,0 +1,11 @@
+# GUSTAVOEURO — security.txt (RFC 9116)
+Contact: mailto:support@gustavoeuro.com
+Contact: https://t.me/gustavoeuro
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: it, en, es, de, fr
+Canonical: https://gustavoeuro.com/.well-known/security.txt
+Policy: https://gustavoeuro.com/#/privacy
+Encryption: https://gustavoeuro.com/.well-known/pgp-key.asc
+Acknowledgments: https://gustavoeuro.com/#/trust
+# PGP fingerprint: 7B3F 9A21 C4E8 5D06 1F77  8AC2 30B9 4E11
+# Segnala vulnerabilità in modo responsabile. Nessun bug bounty formale, ma rispondiamo sempre.
