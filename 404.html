@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — GUSTAVOEURO</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#05060d;--fg:#eef0f8;--au:#ffb020;--bl:#3d7bff;--tl:#14e0b0;--mg:#ff3d9a;--rs:#ff5c5c;--line:#1d2130;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--fg);font-family:'Space Grotesk',system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;position:relative;overflow:hidden}
+  .scan{position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 3px);z-index:2}
+  .glow{position:fixed;width:60vmax;height:60vmax;border-radius:50%;filter:blur(0);opacity:.5;z-index:0}
+  .g1{background:radial-gradient(circle,rgba(61,123,255,.35),transparent 60%);top:-20vmax;left:-15vmax}
+  .g2{background:radial-gradient(circle,rgba(255,61,154,.25),transparent 60%);bottom:-25vmax;right:-15vmax}
+  .box{position:relative;z-index:3;max-width:640px}
+  .code{font-family:'JetBrains Mono',monospace;font-size:clamp(72px,18vw,150px);font-weight:700;line-height:1;background:linear-gradient(90deg,var(--au),var(--mg),var(--bl));-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-4px}
+  h1{font-size:clamp(20px,4vw,30px);margin:14px 0 10px;font-weight:700}
+  p{color:#9aa3bd;line-height:1.6;font-size:15px;margin-bottom:26px}
+  .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  a.btn{display:inline-block;padding:13px 24px;border-radius:10px;text-decoration:none;font-weight:700;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:1px;transition:.2s}
+  .primary{background:var(--au);color:#05060d}
+  .primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(255,176,32,.35)}
+  .ghost{border:1px solid var(--line);color:var(--fg)}
+  .ghost:hover{border-color:var(--au);color:var(--au)}
+  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--tl);letter-spacing:2px;margin-bottom:8px}
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div><div class="scan"></div>
+  <div class="box">
+    <div class="tag">// ROTTA NON TROVATA</div>
+    <div class="code">404</div>
+    <h1>Il nodo non risponde.</h1>
+    <p>La pagina che cerchi è stata spostata, rinominata o non è mai esistita.<br>Torna al portafoglio principale e riprendi il percorso.</p>
+    <div class="btns">
+      <a class="btn primary" href="/#/">← HOME</a>
+      <a class="btn ghost" href="/#/cash">CATALOGO</a>
+      <a class="btn ghost" href="https://t.me/gustavoeuro" target="_blank" rel="noopener">TELEGRAM</a>
+    </div>
+  </div>
+</body>
+</html>
