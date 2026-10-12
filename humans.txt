@@ -1,0 +1,17 @@
+/* TEAM */
+  Owner / Operatore: GUSTAVOEURO
+  Attività: Banconote Euro Grade AAA+ & trasferimenti PayPal P2P anonimi
+  Dal: 2022
+  Telegram: @gustavoeuro
+  Canale: https://t.me/+gBf54xWnFapjMmRh
+  PGP: 7B3F 9A21 C4E8 5D06 1F77  8AC2 30B9 4E11
+
+/* SITE */
+  Ultimo aggiornamento: 2026
+  Lingue: Italiano, English, Español, Deutsch, Français
+  Stack: React 18, Babel, Tailwind (CDN), hash router hand-rolled
+  Standard: HTML5, CSS3, ES6+, PWA, CSP, HSTS
+  Motto: "DAL DARK WEB AL TUO PORTAFOGLIO"
+
+/* THANKS */
+  A tutti i clienti che si fidano dal 2022.
